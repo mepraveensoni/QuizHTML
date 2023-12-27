@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Result</title>
+</head>
+<body>
+    <!-- Add a placeholder div for the download button -->
+<div id="downloadButtonContainer"></div>
+
+    <div id="result-container">
+        <h2>Quiz Result</h2>
+        <div id="result-content">
+            <p>Name: <span id="result-name"></span></p>
+            <p>Roll Number: <span id="result-rollNumber"></span></p>
+            <p>Questions Attempted: <span id="result-questionsAttempted"></span></p>
+            <p>Correct Answers: <span id="result-correctAnswers"></span></p>
+            <p>Wrong Answers: <span id="result-wrongAnswers"></span></p>
+            <p>Percentage: <span id="result-percentage"></span>%</p>
+            <p>Time Taken: <span id="result-timeTaken"></span> seconds</p>
+            <div id="explanation-box">
+                <h3>Explanations:</h3>
+                <div id="explanation-content">
+                    <ul id="result-explanations"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="result.js"></script>
+</body>
+</html>
